@@ -1,0 +1,32 @@
+New log file opened at Fri Jul 22 10:07:33 NPT 2016 by 6824@ujjwal
+jvm 6824@ujjwal
+jvm vmName=OpenJDK 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=9-internal+0-2016-04-14-195246.buildd.src
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=9
+jvm arguments: [-Xms256m, -Xmx1024m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/home/ujjwal/Downloads/csrdc2-master
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /home/ujjwal/Downloads/csrdc2-master/project
+error: error while loading package, Missing dependency 'object java.lang.Object in compiler mirror', required by /home/ujjwal/.sbt/boot/scala-2.10.4/lib/scala-library.jar(scala/package.class)
+error: error while loading package, Missing dependency 'object java.lang.Object in compiler mirror', required by /home/ujjwal/.sbt/boot/scala-2.10.4/lib/scala-library.jar(scala/runtime/package.class)
+object java.lang.Object in compiler mirror not found.
+scala.reflect.internal.MissingRequirementError: object java.lang.Object in compiler mirror not found.
+Use 'last' for the full log.
+> load-failed
+Failed to load project.
+> server-wait-for-reboot
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 6824@ujjwal logs at Fri Jul 22 10:10:35 NPT 2016, goodbye.

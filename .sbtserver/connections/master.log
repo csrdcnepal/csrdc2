@@ -1,0 +1,14 @@
+New log file opened at Fri Jul 22 10:07:33 NPT 2016 by 6824@ujjwal
+Taking next connection to: 41792
+New client attempting to connect on port: 46436-41792
+  Address = /127.0.1.1:41792
+This client on port 46436 has uuid 938f181c-ae1a-4cf5-98a9-47bc5adbdfb9 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9
+Taking next connection to: 41792
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+1 daemon clients are connected.
+Server socket thread exiting.
+1 clients open, will close them...
+All client sockets have been closed.
+Closing the 6824@ujjwal logs at Fri Jul 22 10:10:35 NPT 2016, goodbye.

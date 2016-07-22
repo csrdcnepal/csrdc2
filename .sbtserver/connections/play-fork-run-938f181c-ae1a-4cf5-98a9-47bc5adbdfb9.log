@@ -1,0 +1,32 @@
+New log file opened at Fri Jul 22 10:07:35 NPT 2016 by 6824@ujjwal
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: /home/ujjwal/Downloads/csrdc2-master/.sbtserver/connections/master.log))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,sbt client logs are in: /home/ujjwal/Downloads/csrdc2-master/.sbtserver/connections/play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9.log))
+Reading next message from client.
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: /home/ujjwal/Downloads/csrdc2-master/.sbtserver/master.log))
+Got request: DaemonRequest(true)
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: (3,ReceivedResponse())
+Reading next message from client.
+Got request: ListenToEvents()
+Reading next message from client.
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: (4,ReceivedResponse())
+Got request: KeyLookupRequest(root/playForkConfig)
+Reading next message from client.
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,> --initialize))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,> initialize))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,> onFailure load-failed))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,> boot))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,> reload))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,[Loading] Scanning directory /home/ujjwal/Downloads/csrdc2-master/project))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogStdErr(error: error while loading package, Missing dependency 'object java.lang.Object in compiler mirror', required by /home/ujjwal/.sbt/boot/scala-2.10.4/lib/scala-library.jar(scala/package.class)))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogStdErr(error: error while loading package, Missing dependency 'object java.lang.Object in compiler mirror', required by /home/ujjwal/.sbt/boot/scala-2.10.4/lib/scala-library.jar(scala/runtime/package.class)))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogTrace(MissingRequirementError,object java.lang.Object in compiler mirror not found.))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(error,scala.reflect.internal.MissingRequirementError: object java.lang.Object in compiler mirror not found.))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(error,Use 'last' for the full log.))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,> load-failed))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(error,Failed to load project.))
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: BuildFailedToLoad()
+Sending msg to client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9: DetachedLogEvent(LogMessage(debug,> server-wait-for-reboot))
+Client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9 closed, java.net.SocketException: Socket closed, shutting down
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9
+Client play-fork-run-938f181c-ae1a-4cf5-98a9-47bc5adbdfb9 thread exiting.
+Closing the 6824@ujjwal logs at Fri Jul 22 10:10:35 NPT 2016, goodbye.

@@ -1,0 +1,117 @@
+@(loginForm : Form[Contact])(implicit messages : Messages)
+@import views.html.bootstrap3._
+
+<!DOCTYPE html>
+<html>
+        <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+        <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+        <!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+        <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>Computer Science Research and Development Center Nepal.</title>
+        <meta name="description" content="CSRDC Nepal">
+        <meta name="viewport" content="width=device-width">
+
+    </head>
+    <body>
+
+
+        @imports()
+        @header()
+        
+
+        @services()
+
+        @career()
+
+        @about()
+
+        <script>
+        function initMap() {
+        var myLatLng = {lat: 27.6844899, lng: 85.3353435};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'CSRDC Nepal'
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5Z4OESfIjhx4NOlKmK4L8ScANrnBi8YU&callback=initMap">
+    </script>
+
+        <div id="contact" class="content-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="section-title">Contact Us</h1>
+                    </div> <!-- /.col-md-12 -->
+                </div> <!-- /.row -->
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8 text-center bigger-text">
+                        <p>Computer Science Research and Development Center is located at Shankhamul - 34, Kathmandu, Nepal. </p>
+                        <br>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div id="map">
+                            <span class="glyphicon glyphicon-map-marker"></span> Shankhamul, Kathmandu &nbsp;&nbsp;
+                        </div>
+                    </div> <!-- /.col-md-6 -->
+                    <div class="col-md-6 col-sm-6">
+
+                    @helper.form(action=routes.Application.handleForm()){
+
+                        <fieldset>
+                                <!-- Name -->
+                            @text(loginForm("name"),
+                                label = "Name",
+                                placeholder = "Name",
+                                help = "Please enter your name. (required)")
+
+                                <!-- Email -->
+                            @text(loginForm("email"),
+                                label = "Email",
+                                placeholder = "Email",
+                                help = "Enter a valid email address. (required)")
+
+                                <!-- Subject -->
+                            @text(loginForm("subject"),
+                                label = "Subject",
+                                placeholder = "Subject",
+                                help = "Enter the subject. (required)")
+
+                                <!-- Message -->
+                            @textarea(loginForm("message"),
+                                rows = "4",
+                                label = "Message",
+                                placeholder = "Message",
+                                help = "Enter the message. (required)")
+
+
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button id="submit" type="submit" value="Submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    }
+
+
+
+                    </div> <!-- /.col-md-6 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#contact us -->
+
+        @footer()
+
+    </body>
+</html>

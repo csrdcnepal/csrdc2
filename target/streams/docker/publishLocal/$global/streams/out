@@ -1,0 +1,144 @@
+[0m[[0mdebug[0m] [0mExecuting docker build --force-rm -t csrdc:1.0-SNAPSHOT .[0m
+[0m[[0mdebug[0m] [0mWorking directory /home/ujjwal/Downloads/csrdc2-master/target/docker/stage[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 557.1 kB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 1.114 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 1.671 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 2.228 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 2.785 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 3.342 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 3.899 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 4.456 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 5.014 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 5.571 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 6.128 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 6.685 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 7.242 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 7.799 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 8.356 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 8.913 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  9.47 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 10.03 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 10.58 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 11.14 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  11.7 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 12.26 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 12.81 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 13.37 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 13.93 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 14.48 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 15.04 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  15.6 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 16.15 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 16.71 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 17.27 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 17.83 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 18.38 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 18.94 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  19.5 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 20.05 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 20.61 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 21.17 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 21.73 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 22.28 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 22.84 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  23.4 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 23.95 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 24.51 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 25.07 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 25.62 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 26.18 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 26.74 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  27.3 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 27.85 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 28.41 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 28.97 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 29.52 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 30.08 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 30.64 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  31.2 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 31.75 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 32.31 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 32.87 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 33.42 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 33.98 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 34.54 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 35.09 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 35.65 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 36.21 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 36.77 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 37.32 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 37.88 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 38.44 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 38.99 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 39.55 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 40.11 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 40.67 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 41.22 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 41.78 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 42.34 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 42.89 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 43.45 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 44.01 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 44.56 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 45.12 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 45.68 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 46.24 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 46.79 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 47.35 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 47.91 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 48.46 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 49.02 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 49.58 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 50.14 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 50.69 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 51.25 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 51.81 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 52.36 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 52.92 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 53.48 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 54.03 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 54.59 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 55.15 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 55.71 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 56.26 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 56.82 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 57.38 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 57.87 MB[0m
+[0m[[0minfo[0m] [0mStep 1 : FROM java:latest[0m
+[0m[[0minfo[0m] [0mlatest: Pulling from library/java[0m
+[0m[[0minfo[0m] [0m5c90d4a2d1a8: Already exists[0m
+[0m[[0minfo[0m] [0mab30c63719b1: Already exists[0m
+[0m[[0minfo[0m] [0mc6072700a242: Already exists[0m
+[0m[[0minfo[0m] [0m5f444d070427: Already exists[0m
+[0m[[0minfo[0m] [0m620b5227cf38: Already exists[0m
+[0m[[0minfo[0m] [0m3cfd33220efa: Already exists[0m
+[0m[[0minfo[0m] [0m864a98a84dd2: Already exists[0m
+[0m[[0minfo[0m] [0m734cc28150de: Already exists[0m
+[0m[[0minfo[0m] [0mDigest: sha256:2b840b021b8753dd18da3491d362999980e6636b4a3064ff57bf17ea6dbce42f[0m
+[0m[[0minfo[0m] [0mStatus: Downloaded newer image for java:latest[0m
+[0m[[0minfo[0m] [0m ---> 264282a59a95[0m
+[0m[[0minfo[0m] [0mStep 2 : WORKDIR /opt/docker[0m
+[0m[[0minfo[0m] [0m ---> Running in b4880006ceab[0m
+[0m[[0minfo[0m] [0m ---> 3921147ff042[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container b4880006ceab[0m
+[0m[[0minfo[0m] [0mStep 3 : ADD opt /opt[0m
+[0m[[0minfo[0m] [0m ---> e212a90e4cbd[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 3c41088fbb24[0m
+[0m[[0minfo[0m] [0mStep 4 : RUN chown -R daemon:daemon .[0m
+[0m[[0minfo[0m] [0m ---> Running in f5acfde66615[0m
+[0m[[0minfo[0m] [0m ---> 7e8a1cfc5fd8[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container f5acfde66615[0m
+[0m[[0minfo[0m] [0mStep 5 : USER daemon[0m
+[0m[[0minfo[0m] [0m ---> Running in bb04d62829bf[0m
+[0m[[0minfo[0m] [0m ---> c104be16460b[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container bb04d62829bf[0m
+[0m[[0minfo[0m] [0mStep 6 : ENTRYPOINT bin/csrdc[0m
+[0m[[0minfo[0m] [0m ---> Running in a1aedbf5e9d4[0m
+[0m[[0minfo[0m] [0m ---> 8df79e0b9485[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container a1aedbf5e9d4[0m
+[0m[[0minfo[0m] [0mStep 7 : CMD [0m
+[0m[[0minfo[0m] [0m ---> Running in a747c4c416ff[0m
+[0m[[0minfo[0m] [0m ---> 5434bc545f0a[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container a747c4c416ff[0m
+[0m[[0minfo[0m] [0mSuccessfully built 5434bc545f0a[0m
+[0m[[0minfo[0m] [0mBuilt image csrdc:1.0-SNAPSHOT[0m

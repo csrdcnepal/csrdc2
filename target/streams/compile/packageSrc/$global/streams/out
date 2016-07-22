@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mPackaging /home/ujjwal/Downloads/csrdc2-master/target/scala-2.11/csrdc_2.11-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	services/ApplicationTimer.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/ujjwal/Downloads/csrdc2-master/app/services/ApplicationTimer.scala[0m
+[0m[[0mdebug[0m] [0m	services/Counter.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/ujjwal/Downloads/csrdc2-master/app/services/Counter.scala[0m
+[0m[[0mdebug[0m] [0m	controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/ujjwal/Downloads/csrdc2-master/app/controllers/Application.scala[0m
+[0m[[0mdebug[0m] [0m	application.conf[0m
+[0m[[0mdebug[0m] [0m	  /home/ujjwal/Downloads/csrdc2-master/conf/application.conf[0m
+[0m[[0mdebug[0m] [0m	logback.xml[0m
+[0m[[0mdebug[0m] [0m	  /home/ujjwal/Downloads/csrdc2-master/conf/logback.xml[0m
+[0m[[0mdebug[0m] [0m	routes[0m
+[0m[[0mdebug[0m] [0m	  /home/ujjwal/Downloads/csrdc2-master/conf/routes[0m
+[0m[[0mdebug[0m] [0m	models/Contact.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/ujjwal/Downloads/csrdc2-master/app/models/Contact.scala[0m
+[0m[[0mdebug[0m] [0m	filters/ExampleFilter.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/ujjwal/Downloads/csrdc2-master/app/filters/ExampleFilter.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

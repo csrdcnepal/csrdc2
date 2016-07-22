@@ -1,0 +1,23 @@
+[info] Setting up Play fork run ... (use Ctrl+D to cancel)
+[error] Play fork run has failed due to:
+[error] java.lang.RuntimeException: Connection to sbt closed
+[error] 	at sbt.client.impl.SimpleSbtCli$$$$ef3bf1d94b5f6d172ddb6946df2be64e$$$$sesOnClose$1.apply(SimpleClient.scala:341)
+[error] 	at sbt.client.impl.SimpleSbtCli$$$$ef3bf1d94b5f6d172ddb6946df2be64e$$$$sesOnClose$1.apply(SimpleClient.scala:340)
+[error] 	at scala.collection.immutable.List.foreach(List.scala:381)
+[error] 	at sbt.client.impl.SimpleSbtClient.completePromisesOnClose(SimpleClient.scala:340)
+[error] 	at sbt.client.impl.SimpleSbtClient$responseTracker$.close(SimpleClient.scala:385)
+[error] 	at sbt.client.impl.SimpleSbtClient.sbt$client$impl$SimpleSbtClient$$onMessage(SimpleClient.scala:417)
+[error] 	at sbt.client.impl.SimpleSbtClient$$anonfun$3.apply(SimpleClient.scala:520)
+[error] 	at sbt.client.impl.SimpleSbtClient$$anonfun$3.apply(SimpleClient.scala:520)
+[error] 	at sbt.client.impl.ListenerSet$Listener$$anon$1.run(SimpleChannel.scala:162)
+[error] 	at sbt.client.impl.SimpleSbtClient$RunOnSameThreadContext$.execute(SimpleClient.scala:510)
+[error] 	at sbt.client.impl.ListenerSet$Listener.send(SimpleChannel.scala:160)
+[error] 	at sbt.client.impl.ListenerSet$$anonfun$send$1.apply(SimpleChannel.scala:193)
+[error] 	at sbt.client.impl.ListenerSet$$anonfun$send$1.apply(SimpleChannel.scala:192)
+[error] 	at scala.collection.immutable.Set$Set1.foreach(Set.scala:79)
+[error] 	at sbt.client.impl.ListenerSet.send(SimpleChannel.scala:192)
+[error] 	at sbt.client.impl.ListenerSet.close(SimpleChannel.scala:204)
+[error] 	at sbt.client.impl.SimpleSbtChannel$thread$.run(SimpleChannel.scala:140)
+[info] Stopping Play fork run ...
+[info] JVM exiting, shutting down Play fork run ...
+[info] Play fork run already stopped ...

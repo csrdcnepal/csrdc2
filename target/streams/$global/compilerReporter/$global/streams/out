@@ -1,0 +1,7 @@
+[0m[[33mwarn[0m] [0m/home/ujjwal/Downloads/csrdc2-master/app/controllers/Application.scala:30: method current in object Play is deprecated: This is a static reference to application, use DI instead[0m
+[0m[[33mwarn[0m] [0m    Ok(views.html.index(loginForm))[0m
+[0m[[33mwarn[0m] [0m                       ^[0m
+[0m[[33mwarn[0m] [0m/home/ujjwal/Downloads/csrdc2-master/app/controllers/Application.scala:89: method current in object Play is deprecated: This is a static reference to application, use DI instead[0m
+[0m[[33mwarn[0m] [0m        Ok(views.html.index(loginForm))[0m
+[0m[[33mwarn[0m] [0m                           ^[0m
+[0m[[33mwarn[0m] [0mtwo warnings found[0m
